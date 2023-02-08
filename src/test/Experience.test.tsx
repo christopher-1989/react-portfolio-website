@@ -22,12 +22,11 @@ describe('About page', () => {
     expect(projectsHeading).toBeInTheDocument()
   })
 
-  it('should have the accordion initially open to the second panel', () => {
-    const FirstAccordionButton = screen.getByRole('button', {expanded: false})
-    const SecondAccordionButton = screen.getByRole('button', {expanded: true})
+  it('should have the accordion initially open to on both panels', () => {
+    const accordionButtons = screen.getAllByRole('button', {expanded: true})
 
-    expect(FirstAccordionButton).toHaveTextContent(TYPICAL_DAY)
-    expect(SecondAccordionButton).toHaveTextContent(PROJECTS)
+    expect(accordionButtons[0]).toHaveTextContent(TYPICAL_DAY)
+    expect(accordionButtons[1]).toHaveTextContent(PROJECTS)
   })
 
   it('shows list of competencies when first accordion is expanded', async () => {
