@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/react-portfolio-website/static/js/main.10573c90.js",
+    "static/js/787.f8903f08.chunk.js": "/react-portfolio-website/static/js/787.f8903f08.chunk.js",
+    "static/media/share-recipe.mp4": "/react-portfolio-website/static/media/share-recipe.1cbdf2aac067ba78df92.mp4",
+    "static/media/android-cookbook.png": "/react-portfolio-website/static/media/android-cookbook.e3f5ad28c49b6a4b40cd.png",
+    "static/media/ios-cookbook.png": "/react-portfolio-website/static/media/ios-cookbook.30d833ee88c553124bbf.png",
+    "static/media/react-chakra-portfolio.png": "/react-portfolio-website/static/media/react-chakra-portfolio.dea42dcd242cd93341af.png",
+    "static/media/Auth-flow-screenshot.png": "/react-portfolio-website/static/media/Auth-flow-screenshot.51645d3d433d1d7fb970.png",
+    "static/media/yow-22.jpg": "/react-portfolio-website/static/media/yow-22.13500e819025398dbc1f.jpg",
+    "index.html": "/react-portfolio-website/index.html",
+    "main.10573c90.js.map": "/react-portfolio-website/static/js/main.10573c90.js.map",
+    "787.f8903f08.chunk.js.map": "/react-portfolio-website/static/js/787.f8903f08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.10573c90.js"
+  ]
+}
