@@ -34,7 +34,7 @@ export const projects: Project[] = [
   },
   {
     name: 'Portfolio website',
-    description: "This website was designed using mobile first, responsiveness and accessibility as priorities.\nIt showcases a clean design using React 18, React Router and Chakra UI. It was developed using TDD with Jest and React Testing Library. There was no need for Server Side Rendering for this application.",
+    description: "This website was designed using mobile first, responsiveness and accessibility as priorities.\nIt showcases a clean design using React 18, React Router and Chakra UI. It was developed using TDD with Jest and React Testing Library - to see tests, refer to the source code on GitHub via the link. There was no need for Server Side Rendering for this application.",
     link1: {
       name: "View source code",
       icon: <FaGithub/>,

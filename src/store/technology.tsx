@@ -5,6 +5,8 @@ import {
   SiElasticsearch,
   SiExpo,
   SiIntellijidea,
+  SiJest,
+  SiKotlin,
   SiMongodb,
   SiPostgresql,
   SiPostman,
@@ -45,7 +47,11 @@ export const technologies: Technology[] = [
     icon: <FaReact size={50} />
   },
   {
-    name: "Kotlin/Java",
+    name: 'Kotlin',
+    icon: <SiKotlin size={50} />
+  },
+  {
+    name: "Java",
     icon: <FaJava size={50} />
   },
   {
@@ -120,5 +126,9 @@ export const technologies: Technology[] = [
   {
     name: 'React Router',
     icon: <SiReactrouter size={50} />
+  },
+  {
+    name: 'Jest',
+    icon: <SiJest size={50} />
   }
 ]
