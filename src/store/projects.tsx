@@ -36,9 +36,9 @@ export const projects: Project[] = [
     name: 'Portfolio website',
     description: "This website was designed using mobile first, responsiveness and accessibility as priorities.\nIt showcases a clean design using React 18, React Router and Chakra UI. It was developed using TDD with Jest and React Testing Library. There was no need for Server Side Rendering for this application.",
     link1: {
-      name: "View in GitHub",
+      name: "View source code",
       icon: <FaGithub/>,
-      href: 'https://github.com/christopher-1989/'
+      href: 'https://github.com/christopher-1989/react-portfolio-website'
     },
     thumbnail: portfolio,
     thumbnailAlt: 'portfolio screenshot',
@@ -60,7 +60,7 @@ export const projects: Project[] = [
     name: 'Authentication flow with Express backend and MongoDB',
     description: "An early project to build boilerplate for creating an authentication flow in a React Native application.\nThe authentication uses cookies on the front end and Express and MongoDB in the backend.",
     link1: {
-      name: "View in GitHub",
+      name: "View source code",
       icon: <FaGithub/>,
       href: 'https://github.com/christopher-1989/authentication-flow-express-service-mongodb'
     },

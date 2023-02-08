@@ -16,6 +16,7 @@ export const PageContainer = ({heading, children}: PageContainerProps) => {
              position={'sticky'}
              top={0}
              opacity={1}
+             zIndex={5}
     >
       {heading}
     </Heading>

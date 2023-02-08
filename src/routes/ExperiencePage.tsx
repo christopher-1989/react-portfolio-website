@@ -25,7 +25,7 @@ export const PROJECTS = "Projects:"
 export const ExperiencePage = () => {
 
   return <PageContainer heading={name}>
-    <Accordion defaultIndex={[1]} allowMultiple borderColor={"transparent"}>
+    <Accordion defaultIndex={[0, 1]} allowMultiple borderColor={"transparent"}>
       <AccordionItem>
         <h2>
           <AccordionButton fontSize={'3xl'}>
