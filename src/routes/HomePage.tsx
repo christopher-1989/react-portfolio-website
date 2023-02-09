@@ -1,7 +1,6 @@
 import {Heading, HStack, Image, SimpleGrid, Text, useColorModeValue} from '@chakra-ui/react'
-import headshot from '../assets/img/yow-22.jpg'
+import headshot from '../assets/img/yow-22-bw.jpg'
 import {profile} from '../store/profile'
-import React from "react"
 import {PageContainer} from "../components/PageContainer"
 import {technologies} from "../store/technology"
 import {TechnologyIcon} from "../components/TechnologyIcon"
