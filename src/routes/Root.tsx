@@ -16,7 +16,7 @@ export const Root = () => {
 return <>
 <HStack justifyContent={'space-between'}>
   <ColorModeSwitcher justifySelf="flex-end" color={"teal"}/>
-  {isLargerThan800 && <Switch colorScheme={'teal'} onChange={() => setFeatureEnabled(!featureEnabled)} paddingRight={2} />}
+  {isLargerThan800 ? <Switch colorScheme={'teal'} onChange={() => setFeatureEnabled(!featureEnabled)} paddingRight={2} /> : null}
 </HStack>
 
 <Stack direction={isLargerThan800 ? 'row' : 'column'} divider={<StackDivider borderColor={backgroundColour}/>} paddingLeft={isLargerThan800 ? 0.20 * window.innerWidth : undefined} align='center' justify={'center'}>

@@ -16,10 +16,12 @@ import {ProjectCard} from "../components/ProjectCard"
 
 const {
   name,
-  competencies
+  competencies,
+  furtherExperience
 } = profile
 
 export const TYPICAL_DAY = "What a typical day looks like:"
+export const FURTHER_EXPERIENCE = "Further experience:"
 export const PROJECTS = "Projects:"
 
 export const ExperiencePage = () => {
@@ -38,6 +40,22 @@ export const ExperiencePage = () => {
         <AccordionPanel pb={4}>
           <UnorderedList>
             {competencies.map((competency, index) => <ListItem paddingBottom={4} key={`competency-${index}`}>{competency}</ListItem>)}
+          </UnorderedList>
+        </AccordionPanel>
+      </AccordionItem>
+
+      <AccordionItem>
+        <h2>
+          <AccordionButton fontSize={'3xl'}>
+            <Box as="span" flex='1' textAlign='left'>
+              <Heading as={'h2'} size={'lg'}>{FURTHER_EXPERIENCE}</Heading>
+            </Box>
+            <AccordionIcon />
+          </AccordionButton>
+        </h2>
+        <AccordionPanel pb={4}>
+          <UnorderedList>
+            {furtherExperience.map((experience, index) => <ListItem paddingBottom={4} key={`experience-${index}`}>{experience}</ListItem>)}
           </UnorderedList>
         </AccordionPanel>
       </AccordionItem>

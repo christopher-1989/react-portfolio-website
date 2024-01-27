@@ -1,5 +1,5 @@
 import {Heading, HStack, Image, SimpleGrid, Text, useColorModeValue} from '@chakra-ui/react'
-import headshot from '../assets/img/yow-22-bw.jpg'
+import headshot from '../assets/img/headshot23.jpeg'
 import {profile} from '../store/profile'
 import {PageContainer} from "../components/PageContainer"
 import {technologies} from "../store/technology"
