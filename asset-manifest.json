@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.js": "/react-portfolio-website/static/js/main.06944890.js",
+    "main.js": "/react-portfolio-website/static/js/main.a5c6cbb4.js",
     "static/js/787.f8903f08.chunk.js": "/react-portfolio-website/static/js/787.f8903f08.chunk.js",
+    "static/media/hourglass-no-timer.mp4": "/react-portfolio-website/static/media/hourglass-no-timer.74250f39019884dc31a5.mp4",
     "static/media/share-recipe.mp4": "/react-portfolio-website/static/media/share-recipe.1cbdf2aac067ba78df92.mp4",
     "static/media/android-cookbook.png": "/react-portfolio-website/static/media/android-cookbook.e3f5ad28c49b6a4b40cd.png",
     "static/media/ios-cookbook.png": "/react-portfolio-website/static/media/ios-cookbook.30d833ee88c553124bbf.png",
+    "static/media/hourglass-app-store.png": "/react-portfolio-website/static/media/hourglass-app-store.5e4302ec8106d6b8a43b.png",
     "static/media/react-chakra-portfolio.png": "/react-portfolio-website/static/media/react-chakra-portfolio.dea42dcd242cd93341af.png",
-    "static/media/Auth-flow-screenshot.png": "/react-portfolio-website/static/media/Auth-flow-screenshot.51645d3d433d1d7fb970.png",
-    "static/media/yow-22-bw.jpg": "/react-portfolio-website/static/media/yow-22-bw.646ccf2c4d919118d586.jpg",
+    "static/media/headshot23.jpeg": "/react-portfolio-website/static/media/headshot23.8781a313d4a710283899.jpeg",
     "index.html": "/react-portfolio-website/index.html",
-    "main.06944890.js.map": "/react-portfolio-website/static/js/main.06944890.js.map",
+    "main.a5c6cbb4.js.map": "/react-portfolio-website/static/js/main.a5c6cbb4.js.map",
     "787.f8903f08.chunk.js.map": "/react-portfolio-website/static/js/787.f8903f08.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.06944890.js"
+    "static/js/main.a5c6cbb4.js"
   ]
 }
